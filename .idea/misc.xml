@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/drawable/searchview_background.xml" value="0.236" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/layout/fragment_country_details.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/layout/fragment_covid_details.xml" value="0.21829710144927536" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/layout/fragment_covid_list.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/layout/fragment_splash.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/talha/AndroidStudioProjects/CovidApp/app/src/main/res/layout/item_covid.xml" value="0.24547101449275363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

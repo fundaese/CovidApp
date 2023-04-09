@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.covidapp.view.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_covidListFragment2"
+            app:destination="@id/covidListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/covidListFragment"
+        android:name="com.example.covidapp.view.CovidListFragment"
+        android:label="fragment_covid_list"
+        tools:layout="@layout/fragment_covid_list" >
+        <action
+            android:id="@+id/action_covidListFragment_to_covidDetailsFragment"
+            app:destination="@id/covidDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/covidDetailsFragment"
+        android:name="com.example.covidapp.view.CovidDetailsFragment"
+        android:label="fragment_covid_details"
+        tools:layout="@layout/fragment_covid_details" >
+        <action
+            android:id="@+id/action_covidDetailsFragment3_to_covidListFragment"
+            app:destination="@id/covidListFragment" />
+        <argument
+            android:name="countryName"
+            app:argType="string" />
+        <argument
+            android:name="totalConfirmed"
+            app:argType="integer" />
+        <argument
+            android:name="totalDeaths"
+            app:argType="integer" />
+        <argument
+            android:name="totalRecovered"
+            app:argType="integer" />
+    </fragment>
+</navigation>

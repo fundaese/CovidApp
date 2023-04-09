@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/tv_countryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ülke adı"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_totalConfirmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam vaka sayısı: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_totalRecovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İyileşen sayısı: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_totalDeath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ölüm sayısı: "
+        android:textSize="16sp"/>
+</LinearLayout>
